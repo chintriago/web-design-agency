@@ -1,0 +1,78 @@
+/* RESETS */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+
+.card-title {
+  margin-top: .5em;
+}
+
+.card-text {
+  margin: 1.5em 0;
+  text-align: justify;
+}
+
+.main {
+  flex: 1 1 0;
+}
+
+/* LEFT CARD */
+.left {
+  width: 100%;
+}
+
+.logo {
+  width: 100px;
+  height: 17.49px;
+}
+
+.creative {
+  color: #191970;
+}
+
+/* RIGHT CARD */
+.right {
+  width: 100%;
+}
+
+h1 {
+  font-size: 3.5rem;
+  margin: 37.52px 0;
+  text-align: center;
+}
+
+footer {
+  text-align: right;
+  color: midnightblue;
+  margin: 3em 0 1em;
+}
+
+/* DESKTOP */
+@media screen and (min-width: 680px) {
+  /* GENERAL/RESETS */
+
+  /* LEFT CARD */
+
+  /* RIGHT CARD */
+
+  /* FOOTER */
+
+}
