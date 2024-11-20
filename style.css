@@ -4,14 +4,6 @@
   padding: 0;
 }
 
-img {
-  max-width: 100%;
-  display: block;
-  object-fit: cover;
-  height: 200px;
-  width: 100%;
-}
-
 body {
   font-family: "Poppins", sans-serif;
   margin: 50px 50px 0 50px;
@@ -30,8 +22,33 @@ body {
   text-align: justify;
 }
 
+.tile-image {
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+}
+
 .main {
-  flex: 1 1 0;
+  flex: 1;
+}
+
+/* HEADER */
+
+.logo {
+  width: 100px;
+  height: 17.49px;
+}
+
+h1 {
+  font-size: 3.5rem;
+  margin: 37.52px 0;
+  text-align: center;
+}
+
+.creative {
+  color: #191970;
 }
 
 /* LEFT CARD */
@@ -39,24 +56,9 @@ body {
   width: 100%;
 }
 
-.logo {
-  width: 100px;
-  height: 17.49px;
-}
-
-.creative {
-  color: #191970;
-}
-
 /* RIGHT CARD */
 .right {
   width: 100%;
-}
-
-h1 {
-  font-size: 3.5rem;
-  margin: 37.52px 0;
-  text-align: center;
 }
 
 footer {
@@ -68,10 +70,41 @@ footer {
 /* DESKTOP */
 @media screen and (min-width: 680px) {
   /* GENERAL/RESETS */
+  /* cwot fixing right margin on body for desktop */
+  body {
+    margin-right: 20px;
+  }
+
+  .tile-image {
+    max-width: 299px;
+    float: left;
+    margin-right: 50px;
+  }
+
+  /* HEADER */
+
+  .logo {
+    width: 263.01px;
+    height: 46px;
+  }
+
+  h1 {
+    font-size: 5rem;
+    text-align: left;
+  }
+
+  .card {
+    width: 45%;
+  }
 
   /* LEFT CARD */
-
+  .left {
+    float: left;
+  }
   /* RIGHT CARD */
+  .right {
+    float: right;
+  }
 
   /* FOOTER */
 
